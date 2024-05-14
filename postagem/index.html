@@ -9,21 +9,26 @@
 </head>
 
 <body>
-    <form id="meuFormulario">
+    <form id="form">
         <!-- Email -->
         <div class="formulario">
-            <label>Email:</label>
-            <input type="email" id="email" placeholder="Coloque seu e-mail:">
+            <label>Titulo:</label>
+            <input id="titulo" placeholder="Coloque seu titulo:">
         </div>
 
         <!-- Senha -->
         <div class="formulario">
-            <label>Password</label>
-            <input type="password" id="password" placeholder="Coloque seu e-mail:">
+            <label>Descrição:</label>
+            <input id="descricao" placeholder="Coloque sua descrição:">
         </div>
 
+        <!-- Imagem -->
+        <div class="formulario">
+            <label>Coloque sua imagem:</label>
+            <input type="file" id="img">
+        </div>
         <!-- Botao -->
-        <button type="botao" id="botao">Enviar</button>
+        <button type="submit" id="botao">Enviar</button>
 
     </form>
     <script src="/postagem/script.js"></script>
